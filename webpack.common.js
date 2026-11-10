@@ -4,7 +4,7 @@ import HtmlWebpackPlugin from "html-webpack-plugin";
 export default {
   entry: "./src/main.js",
   output: {
-    filename: "main.js",
+    filename: "[name].bundle.js",
     path: path.resolve(import.meta.dirname, "dist"),
     clean: true,
   },

@@ -7,5 +7,6 @@ export default merge(common, {
   devServer: {
     static: "./dist",
     watchFiles: "./src/index.html",
+    open: true,
   },
 });
